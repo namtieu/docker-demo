@@ -40,7 +40,3 @@ jobs:
                 docker push namtieu/docker-demo:latest
                 docker push namtieu/docker-demo:${{ github.sha }}
 
-            - name: Push image
-              run: |
-                docker push namtieu/docker-demo:latest
-                docker push namtieu/docker-demo:${{ github.sha }}
