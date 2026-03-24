@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello, Docker!");
+  res.send("Hello, Docker. Today is 24th of March 2026 !");
 });
 
 if (require.main === module) {
